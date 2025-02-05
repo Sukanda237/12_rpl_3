@@ -14,7 +14,7 @@ class koneksi
     private $server = "localhost";
     private $username = "root";
     private $pass = "";
-    private $database = "latihan_xirpl2";
+    private $database = "latihan_xirpl2"; //nama database disesuaikan dengan yang digunkan
 
     // berfungsi untuk mengembalikan nilai dari koneksi ke database jika koneksinya berhasil
     public $koneksi;
