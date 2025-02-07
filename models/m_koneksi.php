@@ -32,13 +32,13 @@ class koneksi
         mysqli_select_db($this->koneksi, $this->database);
 
         if ($this->koneksi) {
-            echo "Koneksi ke database " . $this->database . " berhasil";
+            // echo "Koneksi ke database " . $this->database . " berhasil";
 
             //mengembalikan nilai koneksi jika koneksinya berhasil
-            // return $this->koneksi;
+            return $this->koneksi;
         } else {
             echo "Koneksi kedatabase gagal !";
         }
     }
 }
-$koneksi = new koneksi();
+// $koneksi = new koneksi();
